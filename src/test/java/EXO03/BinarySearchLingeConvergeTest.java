@@ -9,6 +9,7 @@ public class BinarySearchLingeConvergeTest {
         int[] array = {1, 3, 5, 7, 9};
         int index = BinarySearch.binarySearch(array, 5);
         assertEquals(2, index);
+
     }
 
     @Test

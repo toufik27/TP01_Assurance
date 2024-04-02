@@ -27,7 +27,6 @@ public class FizzBuzzLingeConvergeTest {
     @Test
     public void testWithNumberBuzz() {
         assertEquals("Buzz", FizzBuzz.fizzBuzz(40));
-
     }
     @Test
     public void testWithNotFizzNotBuzzNotFizzBuzz()

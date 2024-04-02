@@ -1,12 +1,14 @@
 package EXO05;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-public class RomanNumeralLingeConvergeTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+public class RomanNumeralBranchConvergeTest {
     @Test
     public void testWithNumberOutInterval() {
-       int n = 0;
+        int n = 0;
         assertThrows(IllegalArgumentException.class, () -> RomanNumeral.toRoman(n));
     }
 
